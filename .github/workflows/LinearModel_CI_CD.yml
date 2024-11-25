@@ -22,6 +22,8 @@ jobs:
       run: python linear_model.py
     - name: show root dir
       run: ls -la
+    - name: list dir
+      run: ls -R
     - name: show dir
       run: ls -la linear-model/1/
 
